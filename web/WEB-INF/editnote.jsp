@@ -14,7 +14,7 @@
     <body>
         <h1>Simple Note Keeper</h1>
         <br>
-        <form>
+        <form method="post" action="note">
         <h2>View Note</h2>
         
         <b>Title:</b> <input type ="text" name="title" value="${Note.title}">
